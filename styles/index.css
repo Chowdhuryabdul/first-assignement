@@ -54,6 +54,7 @@ header {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 0;
+    
 }
 
 .section-paragraph {
@@ -125,11 +126,10 @@ display: flex;
 width: 1440px;
 height: 320px;
 margin: 0 240px;
-}
-
-figure{
-   padding: 85px 175px 0 175px;
-   align-items: center; 
+justify-content: space-between;
+/* justify-content: center; */
+align-items: center;
+gap: 100px;
 }
 
 .icon-caption{
@@ -138,6 +138,121 @@ figure{
     font-size: 24px;
     font-weight: 600;
     line-height: 35px; 
-    position: absolute;
-    margin-right: 100px;
+  flex-direction: column;
+  align-items: center;     
+}
+
+.icon{
+   
+}
+/* section-3 */
+
+.section-3{
+  height: 620px;
+  border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 130px;
+margin-bottom: 130px;
+display: flex;
+padding: 100px 429px 100px 393px;
+text-align: center;
+}
+
+.hot-deal{
+    padding-top: 130px;
+}
+
+.section-3-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+span{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-3-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+/* section-4 */
+
+.section-4-images{
+    display: flex;
+    margin: 0 240px;
+    justify-content: center;
+}
+.img{
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+/* seection-5 */
+
+.section-5{
+    background: url('../Flower%20Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 0 240px;
+    justify-content: center;
+    border-radius: 8px;
+    height: 449px;
+    text-align: center;
+    padding-top: 122px;
+}
+
+
+.section-5-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;;
+font-weight: 400;
+line-height: 30px; 
+margin-bottom: 0;
+}
+
+.section-5-input{
+    border-radius: 8px;
+background: #FFF;
+padding: 23px 500px 23px 23px;
+margin-top: 50px;
+}
+
+/* footer  */
+
+footer{
+    height: 449px;
+    background: #111010;
+    padding-top: 130px; 
+    text-align: center;
+}
+
+.section-title-footer{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.section-paragraph-footer{
+    color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 24px;
+margin-bottom: 0;
+padding: 0 650px;
+}
+
+#section-paragraph-1-footer{
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-style: normal;
+line-height: normal;
+margin-top: 20px;
 }
