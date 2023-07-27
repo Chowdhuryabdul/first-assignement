@@ -1,0 +1,143 @@
+/* Common CSS */
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    max-width: 1920px;
+}
+
+.btn-common {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+
+}
+
+/* Header related css */
+header {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 0px 150px;
+    gap: 40px;
+    margin-bottom: 178px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.banner-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+}
+
+/* section-1 css */
+
+.section-1 {
+    margin-bottom: 128px;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.section-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    padding: 0 600px;
+    margin-bottom: 50px;
+}
+
+.section-images {
+    display: flex;
+    height: 538px;
+    width: 464px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.image-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0 76px;
+    height: 428px;
+    margin-right: 0;
+}
+
+.image-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px 47px;
+    height: 370px;
+    margin-left: 24px;
+    margin-right: 0;
+}
+
+.image-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0 75px;
+    margin-left: 24px;
+    height: 471px;
+}
+
+.caption {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.caption-1 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 75px;
+}
+
+/* section-2 */
+
+.section-2{
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+width: 1440px;
+height: 320px;
+margin: 0 240px;
+}
+
+figure{
+   padding: 85px 175px 0 175px;
+   align-items: center; 
+}
+
+.icon-caption{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px; 
+    position: absolute;
+    margin-right: 100px;
+}
