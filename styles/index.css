@@ -14,7 +14,25 @@ body {
     border: 0;
     border-radius: 8px;
     background: #E55473;
+}
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.section-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    padding: 0 600px;
+    margin-bottom: 50px;
 }
 
 /* Header related css */
@@ -24,7 +42,6 @@ header {
     padding: 0px 150px;
     gap: 40px;
     margin-bottom: 178px;
-
 }
 
 .banner-title {
@@ -48,25 +65,7 @@ header {
     margin-bottom: 128px;
 }
 
-.section-title {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 0;
 
-}
-
-.section-paragraph {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 24px;
-    padding: 0 600px;
-    margin-bottom: 50px;
-}
 
 .section-images {
     display: flex;
@@ -127,7 +126,6 @@ header {
     height: 320px;
     margin: 0 240px;
     justify-content: space-between;
-    /* justify-content: center; */
     align-items: center;
     gap: 100px;
 }
@@ -142,7 +140,6 @@ header {
     align-items: center;
 }
 
-.icon {}
 
 /* section-3 */
 
@@ -226,62 +223,69 @@ span {
 
 /* My section */
 
-.my-section{
+.my-section {
     width: 1440px;
-height: 600px;
-border: 1px solid pink;
-margin-bottom: 130px;
-/* box-shadow: 0 0 10px pink; */
+    height: 600px;
+    border: 1px solid pink;
+    margin-bottom: 130px;
+    box-shadow: 0 0 10px pink;
+    margin: 0 240px 130px 240px;
 }
 
-.my-section-header-paragraph{
+.my-section-header-paragraph {
     text-align: center;
     background-color: blueviolet;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-     align-items: center;
+    align-items: center;
 }
-nav > ul{
+
+nav>ul {
     list-style: none;
-    display: flex;   
+    display: flex;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     margin-right: 15px;
+    color: #111010;
 }
-a{
-    color: #111010;    
+
+a {
+    /* color: #111010; */
 }
-a:hover{
+
+a:hover {
     background-color: rgba(229, 84, 115, 0.05);
 }
 
-.my-section-body{
-    display: flex;   
+.my-section-body {
+    display: flex;
     padding-left: 200px;
     padding-top: 50px;
     gap: 50px;
 }
 
-.column-2{
-   background-image: url('../Flower%20Asset/HD-wallpapers.jpg');
-   background-size: cover;
-   width: 100%;
-  height: 300px;
-  padding: 50px 100px;
+.column-2 {
+    background-image: url('../Flower%20Asset/HD-wallpapers.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding: 50px 100px;
 }
 
-.column-title{
+.column-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     font-style: italic;
-}   
-.column-title-1{
+}
+
+.column-title-1 {
     color: palevioletred;
     text-align: center;
     font-size: 40px;
@@ -289,25 +293,27 @@ a:hover{
     font-style: italic;
     margin-bottom: 0;
 }
-.column-paragraph{
-    color:  rgba(39, 39, 39, 0.60);;
+
+.column-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    ;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 24px; 
+    margin-top: 24px;
 }
-.column-paragraph-1{
+
+.column-paragraph-1 {
     color: palevioletred;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    /* margin-top: 50px;  */
     font-style: italic;
 }
 
-.btn{
+.btn {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -317,7 +323,7 @@ a:hover{
     background: #E55473;
     margin-left: 150px;
 }
-    
+
 
 /* footer  */
 
@@ -352,8 +358,9 @@ footer {
     line-height: normal;
     margin-top: 20px;
 }
-#flower{
+
+#flower {
     color: #E55473;
-font-size: 48px;
-font-weight: 800;
+    font-size: 48px;
+    font-weight: 800;
 }
